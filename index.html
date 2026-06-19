@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Print Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Online Print Service</h1>
+
+    <input type="file"
+           id="pdfFile"
+           accept=".pdf">
+
+    <div id="result"></div>
+
+    <button id="printBtn"
+            style="display:none;">
+        Print
+    </button>
+
+    <div id="payment"></div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
